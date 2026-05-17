@@ -24,12 +24,42 @@ Word display & letter tracking
 functions
 Modular, clean code structure
 ▶️ How to Run
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/CodeAlpha_HangmanGame.git
+
+# Navigate into the folder
+cd CodeAlpha_HangmanGame
+
+# Run the game
+python hangman.py
 Bash
 Requires Python 3.x — no external libraries needed!
 🎮 Sample Output
 Code
+========================================
+        🎮  HANGMAN GAME  🎮
+========================================
+The word has 6 letters. Good luck!
+
+   -----
+   |   |
+   O   |
+  /|\  |
+       |
+       |
+=========
+
+Word : p _ t h _ n
+Wrong guesses left : 3
+Incorrect letters  : a, e, m
+
+Guess a letter:
 📁 Project Structure
 Code
+CodeAlpha_HangmanGame/
+│
+└── hangman.py       # Main game file
+└── README.md        # Project documentation
 👩‍💻 Author
 Mangala Sravani
 Python Programming Intern — CodeAlpha
